@@ -71,6 +71,11 @@
 - Windows 中打开命令行，输入 Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
 - 重启到 macOS，联网同步时间，再次进入 Windows 即可正常显示时间
 
+
+   MacOS的声音调节如果出现跳动的问题，并且在停止调节后图标仍然出现跳音量的情况，可以尝试进入bios的setting->超级IO配置->关闭里面的并行串口。重启后进入系统后应该就OK了
+
+​	
+
 ## 相关
 
 感谢各位大佬们为hackintosh做出的贡献
